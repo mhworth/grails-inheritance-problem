@@ -1,9 +1,9 @@
-import test.Bar
+import test.BarImpl
 
 class BootStrap {
 
     def init = { servletContext ->
-		Bar b = new Bar()
+		BarImpl b = new BarImpl()
 		b.read()
 		
     }

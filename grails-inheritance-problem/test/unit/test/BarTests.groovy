@@ -21,7 +21,7 @@ class BarTests {
     }
 
     void testBar() {
-        Bar b = new Bar()
+        BarImpl b = new BarImpl()
 		b.read()
     }
 }

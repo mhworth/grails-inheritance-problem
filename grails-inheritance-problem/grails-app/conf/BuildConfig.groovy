@@ -35,8 +35,6 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         // runtime 'mysql:mysql-connector-java:5.1.20'
-		compile 'org.springframework.batch:spring-batch-core:2.1.8.RELEASE'
-		compile 'org.springframework.batch:spring-batch-infrastructure:2.1.8.RELEASE'
     }
 
     plugins {
